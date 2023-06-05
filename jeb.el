@@ -45,7 +45,9 @@
                         (mode . rustic-mode)))
                ("toml" (mode . toml-mode))
                ("c/c++" (mode . c++-mode))
-               ;; ("java" (mode . java-mode))
+               ("java" (mode . java-mode))
+               ("databass" (mode . sql-mode))
+               ("docs" (mode . markdown-mode))
                ("emacs" (or
                          (name . "\\.el")
                          (name . "^\\*scratch\\*$")
