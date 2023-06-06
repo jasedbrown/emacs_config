@@ -12,6 +12,7 @@
 (setq-default tab-width 4)
 
 (show-paren-mode 1)
+(column-number-mode 1)
 
 ;; don't use global line highlight
 (global-hl-line-mode 0)

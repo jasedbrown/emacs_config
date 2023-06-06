@@ -7,3 +7,5 @@ custom.el
 /.extension/
 /.cache
 /transient/
+/eclipse.jdt.ls/
+/workspace/
