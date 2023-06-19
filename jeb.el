@@ -165,10 +165,3 @@
   :ensure t
   :config (treemacs-set-scope-type 'Tabs))
 
-
-;; -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-;; RANDOM SHIT
-
-;; enable bidirectional synchronization of lsp workspace folders and treemacs projects.
-;; i'm not _quite_ sure WTH does it does :shrug:
-;;(lsp-treemacs-sync-mode 1)

@@ -23,3 +23,11 @@ for easiest results, create a shell alias:
 alias rmacs="EMACS_LANG=rust emacs -q --load <path_to_this_repo>/standalone.el"
 ```
 
+# hacking
+
+ordering of config file loading is:
+
+- `standalone.el`
+- `jeb.el`
+- programming language-specific config (like `rust.el`)
+- `post-lang.el`
