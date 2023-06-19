@@ -46,9 +46,12 @@
                         (mode . rustic-mode)))
                ("toml" (mode . toml-mode))
                ("yaml" (mode . yaml-mode))
+               ("shell script" (mode . shell-script-mode))
                ("c/c++" (mode . c++-mode))
                ("java" (mode . java-mode))
-               ("databass" (mode . sql-mode))
+               ("databass" (or
+                            (mode . sql-mode)
+                            (name . "\\.spec")))
                ("docs" (mode . markdown-mode))
                ("emacs" (or
                          (name . "\\.el")
@@ -145,7 +148,8 @@
     (treemacs-hide-gitignored-files-mode nil))
   :bind
   (:map global-map
-        ("<f8>"      . treemacs)
+        ("<f9>"      . treemacs)
+        ("<f8>"      . treemacs-select-window)
         ("C-x t 1"   . treemacs-delete-other-windows)
         ("C-x t d"   . treemacs-select-directory)
         ("C-x t B"   . treemacs-bookmark)

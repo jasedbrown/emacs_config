@@ -70,6 +70,7 @@
   (lsp-ui-sideline-show-hover t)
   (lsp-ui-doc-enable nil))
 
+(setq lsp-file-watch-threshold 2000)
 
 ;; -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ;; inline errors
