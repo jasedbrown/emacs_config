@@ -46,7 +46,9 @@
                         (mode . rustic-mode)))
                ("toml" (mode . toml-mode))
                ("yaml" (mode . yaml-mode))
-               ("shell script" (mode . shell-script-mode))
+               ("shell script" (or
+                                (mode . shell-script-mode)
+                                (mode . sh-mode)))
                ("c/c++" (mode . c++-mode))
                ("java" (mode . java-mode))
                ("databass" (or
